@@ -428,7 +428,7 @@
  .info-date__what {
     font-size: 50px;
     line-height: 38px;
-    margin: 0 0 15px;
+    margin: 0;
   }
 
   .info-date__where {
@@ -461,5 +461,9 @@
 
   .info-date__figure-right {
     opacity: 0;
+  }
+
+  .header__title {
+    display: none;
   }
 }

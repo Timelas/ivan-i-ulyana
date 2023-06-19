@@ -7,13 +7,13 @@ function InfoDate() {
       <div className="info-date__invitation">
         <p className="info-date__who">Дорогие</p>
         <p className="info-date__who">родные и друзья!</p>
-        <p className="info-date__text">Так далеко все зашло, мы сами этого не ожидали - мы женимся! Мы верим   и надеемся, что этот день станет красивым началом долгой и счастливой истории. Приглашаем вас разделить с нами этот важный момент нашей жизни. Мы будем благодарны за вашу поддержку и внимание в день нашей свадьбы!</p>
+        <p className="info-date__text">Приглашаем вас разделить с нами этот важный момент нашей жизни. Мы будем благодарны за вашу поддержку и внимание в день нашей свадьбы!</p>
       </div>
       <div className="info-date__place" id="place">
         <div className="info-date__line1"></div>
         <div className="info-date__line2"></div>
         <div className="info-date__check-in">
-          <p className="info-date__what">Торжественная регистрация и банкет</p>
+          <p className="info-date__what">Регистрация и банкет</p>
         </div>
         <p className="info-date__day-week">Суббота</p>
         <div className="info-date__day">
