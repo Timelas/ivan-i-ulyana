@@ -80,7 +80,6 @@ function Rsvp() {
       </div> :
       <div>
         <p className="rsvp__answer">Форма отправлена!</p>
-        <button className="rsvp__return" onClick={returnForm}>Планы поменялись? Заполнить форму заново</button>
       </div>
       } 
     </section>

@@ -199,9 +199,16 @@
 }
 
 @media screen and (max-width: 500px) {
+  .header__mobile {
+    position: relative;
+  }
+
   .header__image-mobile {
     position: relative;
-    right: -50px;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
     align-self: flex-end;
   }
 
@@ -213,5 +220,21 @@
 
   .header__title {
     font-size: 12px;
+  }
+
+  .header__info-mobile {
+    position: absolute;
+    color: white;
+    bottom: 100px;
+    left: calc((100vw - 240px) / 2);
+    z-index: 5;
+  }
+
+  .header__info_date-mobile {
+    position: absolute;
+    color: white;
+    bottom: 50px;
+    left: calc((100vw - 84px) / 2);
+    z-index: 5;
   }
 }
