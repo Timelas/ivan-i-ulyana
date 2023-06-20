@@ -162,6 +162,13 @@ export const guests = [
         appeal: "Дорогая Наталья!",
         pronoun: "вас",
         pronoun2: "вашу",
+        id: "dear-natalia"
+    },
+    {
+        name: "",
+        appeal: "Дорогая Наталья!",
+        pronoun: "тебя",
+        pronoun2: "твою",
         id: "natalia"
     },
     {
