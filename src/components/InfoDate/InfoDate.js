@@ -1,13 +1,18 @@
 import React from "react";
+import { useParams } from 'react-router-dom';
+import {guests} from '../../vendor/const';
 import "./InfoDate.css";
 
 function InfoDate() {
+  let { id } = useParams();
+
+  const guest = guests.find(f => f.id === id);
   return (
     <section className="info-date">
       <div className="info-date__invitation">
-        <p className="info-date__who">Дорогие</p>
-        <p className="info-date__who">родные и друзья!</p>
-        <p className="info-date__text">Приглашаем вас разделить с нами этот важный момент нашей жизни. Мы будем благодарны за вашу поддержку и внимание в день нашей свадьбы!</p>
+        <p className="info-date__who">{guest.appeal}</p>
+        <p className="info-date__who">{guest.name}</p>
+        <p className="info-date__text">Так далеко все зашло, мы сами этого не ожидали - мы женимся! Приглашаем {guest.pronoun} разделить с нами этот важный момент нашей жизни. Мы будем благодарны за {guest.pronoun2} поддержку и внимание в день нашей свадьбы!</p>
       </div>
       <div className="info-date__place" id="place">
         <div className="info-date__line1"></div>

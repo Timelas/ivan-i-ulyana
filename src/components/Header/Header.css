@@ -83,6 +83,11 @@
 }
 
 @media screen and (max-width: 1700px) {
+  .header {
+    padding: 0;
+    height: 100%;
+  }
+
   .header__desctop {
     padding: 30px;
   }
