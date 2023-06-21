@@ -172,7 +172,7 @@ export const guests = [
         id: "natalia"
     },
     {
-        name: "родные и друзья!",
+        name: "Родные и друзья!",
         appeal: "Дорогие",
         pronoun: "вас",
         pronoun2: "вашу",
